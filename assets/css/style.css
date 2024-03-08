@@ -204,6 +204,10 @@
     padding: 12px;
 }
 
+.p-24 {
+    padding: 24px;
+}
+
 .pt-24 {
     padding-top: 24px;
 }
@@ -865,8 +869,8 @@
 @media (max-width:320px) {
     :root {
         --fs-18: 14px;
-        --fs-22: 17px;
-        --fs-48: 14px;
+        --fs-22: 13px;
+        --fs-48: 22px;
         --fs-96: 44px;
     }
 
@@ -884,8 +888,8 @@
         width: 100px;
     }
 
-    .gap-sm-79 {
-        gap: 79px;
+    .gap-sm-57 {
+        gap: 57px;
     }
 
     .box-1 {
@@ -894,6 +898,10 @@
 
     .transform_1 {
         transform: translate(0%, -7%);
+    }
+
+    .gap-sm-25 {
+        gap: 25px;
     }
 }
 
