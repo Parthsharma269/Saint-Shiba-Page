@@ -838,6 +838,11 @@
     .transform_1 {
         transform: translate(0%, -12%);
     }
+
+    .circle {
+        width: 75px;
+        height: 60px;
+    }
 }
 
 @media (max-width:320px) {
