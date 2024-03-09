@@ -299,6 +299,12 @@
     padding-right: 12px;
 }
 
+.col-5 {
+    width: 41.66%;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
 .col-6 {
     width: 50%;
     padding-left: 12px;
@@ -569,8 +575,8 @@
 
 .circle {
     padding: 0;
-    width: 55px;
-    height: 55px;
+    width: 60px;
+    height: 60px;
     cursor: pointer;
     color: #000000;
     border-radius: 100%;
@@ -883,6 +889,12 @@
 @media (min-width:992px) {
     .col-lg-6 {
         width: 50%;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+
+    .col-lg-5 {
+        width: 41.66%;
         padding-left: 12px;
         padding-right: 12px;
     }
