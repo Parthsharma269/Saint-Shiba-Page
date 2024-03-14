@@ -377,6 +377,11 @@
     background: #000000;
 }
 
+.HOME:hover {
+    color: #ff4500;
+    transition: all 250ms linear;
+}
+
 .bg-img {
     background-size: cover;
     background-position: center;
