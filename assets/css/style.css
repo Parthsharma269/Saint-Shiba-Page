@@ -507,8 +507,8 @@
     width: 100%;
     padding: 24px;
     border-radius: 10px;
+    background-color: #121111;
     border: 1px solid #121111;
-    background: linear-gradient(94.88deg, #ffffff0d 0.97%, #ffffff00 103.14%);
 }
 
 .box-1 {
