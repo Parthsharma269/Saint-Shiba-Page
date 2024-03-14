@@ -855,6 +855,10 @@
         width: 75px;
         height: 60px;
     }
+
+    .col-4 {
+        width: 100%;
+    }
 }
 
 @media (max-width:320px) {
