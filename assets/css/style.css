@@ -517,11 +517,10 @@
 }
 
 .box-1 {
-    width: 424px;
     padding: 24px;
     height: 154px;
     border-radius: 10px;
-    border: 1px solid #1C1B1B;
+    border: 1px solid #504F4F;
     background: linear-gradient(94.88deg, #ffffff1a 0.97%, #ffffff00 103.14%);
 }
 
@@ -691,10 +690,6 @@
         --fs-96: 77px;
     }
 
-    .box-1 {
-        width: 100%;
-    }
-
     .transform_1 {
         transform: translate(0%, -22%);
     }
@@ -808,6 +803,10 @@
 
     .lg-relative {
         position: relative;
+    }
+
+    .col-4 {
+        width: 100%;
     }
 }
 
