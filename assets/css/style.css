@@ -706,6 +706,17 @@
     }
 }
 
+@media (max-width:1029.33px) {
+    .Section-1-blur-img {
+        position: absolute;
+        top: 120%;
+    }
+
+    .transform_1 {
+        transform: translate(0%, -9%);
+    }
+}
+
 @media (max-width: 1024px) {
     :root {
         --fs-14: 11px;
@@ -942,7 +953,7 @@
         width: 222px;
     }
 
-    .Massa{
+    .Massa {
         width: 222px;
     }
 }
