@@ -503,6 +503,11 @@
     transform: translate(0%, -28%);
 }
 
+.Section-1-blur-img {
+    position: absolute;
+    top: 74%;
+}
+
 .box {
     width: 100%;
     padding: 24px;
@@ -823,6 +828,11 @@
 
     .text-align-md-left {
         text-align: left;
+    }
+
+    .Section-1-blur-img {
+        position: absolute;
+        top: 139%;
     }
 }
 
