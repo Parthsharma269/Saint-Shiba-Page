@@ -481,8 +481,16 @@
 }
 
 .Massa {
+    width: 305px;
     Opacity: 70%;
-    max-width: 547px;
+    height: 128px;
+}
+
+.massa {
+    width: 305px;
+    Opacity: 70%;
+    height: 128px;
+    margin-left: 38%;
 }
 
 .FAQ {
@@ -526,9 +534,8 @@
 
 .box-number {
     padding: 12px;
+    height: 126px;
     cursor: pointer;
-    max-width: 660px;
-    max-height: 126px;
     border-radius: 100px;
     background-color: #151313;
     transition: all 250ms linear;
@@ -693,6 +700,10 @@
     .transform_1 {
         transform: translate(0%, -22%);
     }
+
+    .massa {
+        margin-left: 32%;
+    }
 }
 
 @media (max-width: 1024px) {
@@ -705,6 +716,10 @@
 
     .transform_1 {
         transform: translate(0%, -20%);
+    }
+
+    .massa {
+        margin-left: 12%;
     }
 }
 
@@ -808,6 +823,14 @@
     .col-4 {
         width: 100%;
     }
+
+    .massa {
+        margin-left: 0;
+    }
+
+    .text-align-right {
+        text-align: left;
+    }
 }
 
 @media (max-width:768px) {
@@ -852,6 +875,8 @@
 
 @media (max-width:500px) {
     :root {
+        --fs-18: 15px;
+        --fs-22: 18px;
         --fs-48: 24px;
         --fs-96: 58px;
     }
@@ -911,6 +936,14 @@
 
     .gap-sm-25 {
         gap: 25px;
+    }
+
+    .massa {
+        width: 222px;
+    }
+
+    .Massa{
+        width: 222px;
     }
 }
 
