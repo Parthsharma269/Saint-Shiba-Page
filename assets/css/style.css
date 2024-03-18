@@ -208,6 +208,10 @@
     padding-bottom: 22px;
 }
 
+.p-16 {
+    padding: 16px;
+}
+
 .p-24 {
     padding: 24px;
 }
@@ -548,7 +552,6 @@ nav a {
 
 .box {
     width: 100%;
-    padding: 16px;
     border-radius: 10px;
     background-color: #121111;
     border: 1px solid #474646;
