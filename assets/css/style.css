@@ -181,6 +181,10 @@
     padding-right: 55px;
 }
 
+.mt-94 {
+    margin-top: 94px;
+}
+
 .mb-200 {
     margin-bottom: 200px;
 }
@@ -885,6 +889,10 @@ nav a {
     .py-100 {
         padding-top: 100px;
         padding-bottom: 50px;
+    }
+
+    .mt-94 {
+        margin-top: 0;
     }
 
     .d-none {
