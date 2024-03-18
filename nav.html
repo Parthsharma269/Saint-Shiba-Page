@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            list-style-type: none;
+            text-decoration: none;
+            box-sizing: border-box;
+        }
+
+        .min-vh-100 {
+            min-height: 100vh;
+        }
+
+        .d-flex {
+            display: flex;
+        }
+
+        .align-items-center {
+            align-items: center;
+        }
+
+        .justify-content-between {
+            justify-content: space-between;
+        }
+
+        .container {
+            max-width: 1140px;
+            margin-left: auto;
+            margin-right: auto;
+            padding-left: 12px;
+            padding-right: 12px;
+        }
+
+        .gap-20 {
+            gap: 20px;
+        }
+
+        .py-40 {
+            padding-top: 40px;
+            padding-bottom: 40px;
+        }
+
+        nav {
+            background: rgba(0, 0, 0, 0.75);
+            overflow: hidden;
+        }
+
+        .navbg {
+            backdrop-filter: blur(8px);
+        }
+
+        nav a {
+            font-size: 20px;
+            color: white;
+        }
+
+        .overflow-hidden {
+            overflow: hidden;
+        }
+
+        @media (max-width:768px) {
+            .menuIcon {
+                width: 30px;
+                height: 30px;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                cursor: pointer;
+                z-index: 1;
+            }
+
+            .menuIcon>span {
+                width: 100%;
+                height: 4px;
+                background-color: red;
+            }
+
+            .smView {
+                flex-direction: column;
+                justify-content: center;
+                position: fixed;
+                top: 0;
+                right: -100%;
+                background: rgba(0, 0, 0, 0.75);
+                backdrop-filter: blur(8px);
+                width: 100%;
+                height: 100%;
+                transition: all 200ms linear;
+                opacity: 0;
+            }
+
+            .smView.show {
+                right: 0;
+                opacity: 1;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header class="min-vh-100">
+        <nav class="py-40 navbg">
+            <div class="container">
+                <div class="d-flex align-items-center justify-content-between">
+                    <a href="">pageLogo</a>
+                    <span class="menuIcon">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </span>
+                    <ul class="d-flex align-items-center gap-20 smView">
+                        <li><a href="">Home</a></li>
+                        <li><a href="">About</a></li>
+                        <li><a href="">Services</a></li>
+                        <li><a href="">Products</a></li>
+                        <li><a href="">Blogs</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <section class="min-vh-100"></section>
+    <script>
+        const menuIcon = document.querySelector(".menuIcon");
+        const menuList = document.querySelector(".smView");
+        menuIcon.addEventListener("click", () => {
+            menuList.classList.toggle("show");
+            document.querySelector("nav").classList.toggle("navbg");
+            document.querySelector("body").classList.toggle("overflow-hidden");
+        })
+    </script>
+</body>
+
+</html>
