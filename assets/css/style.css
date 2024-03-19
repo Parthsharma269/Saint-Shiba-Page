@@ -198,6 +198,10 @@
     padding-bottom: 17px;
 }
 
+.pt-20 {
+    padding-top: 20%;
+}
+
 .pl-13 {
     padding-left: 13%;
 }
@@ -239,6 +243,10 @@
     padding-top: 70px;
 }
 
+.p-70 {
+    padding: 70px;
+}
+
 .pt-100 {
     padding-top: 100px;
 }
@@ -246,6 +254,10 @@
 .py-100 {
     padding-top: 165px;
     padding-bottom: 200px;
+}
+
+.mb-456 {
+    margin-bottom: 456px;
 }
 
 .gap-25 {
@@ -306,6 +318,10 @@
 
 .text-center {
     text-align: center;
+}
+
+.padding-card {
+    padding: 70px;
 }
 
 .col-4 {
@@ -645,6 +661,30 @@ nav a {
     display: none;
 }
 
+.ellipse-left-dotted {
+    left: 0;
+    top: 156%;
+    position: absolute;
+}
+
+.Ellipse-left-dotted {
+    left: 0;
+    top: 480%;
+    position: absolute;
+}
+
+.ellipse-right-shine {
+    right: 0;
+    top: 409%;
+    position: absolute;
+}
+
+.last-ellipse {
+    right: 0;
+    top: 576%;
+    position: absolute;
+}
+
 .roadmap {
     position: relative;
 }
@@ -744,7 +784,7 @@ nav a {
     }
 
     .massa {
-        margin-left: 32%;
+        margin-left: 12%;
     }
 }
 
@@ -828,6 +868,15 @@ nav a {
 
     .right {
         left: 0;
+    }
+
+    .py-lg-100 {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+
+    .pt-lg-20 {
+        padding: 0;
     }
 
     .p-lg-12 {
@@ -1007,6 +1056,10 @@ nav a {
 
     .Massa {
         width: 222px;
+    }
+
+    .d-none {
+        display: none;
     }
 }
 
