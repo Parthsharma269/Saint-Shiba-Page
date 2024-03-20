@@ -436,9 +436,11 @@ nav a {
 
 .btn-Connect-Wallet {
     gap: 10px;
+    z-index: 4;
     border: none;
     outline: none;
     padding: 7px 23px;
+    position: relative;
     border-radius: 23px;
     display: inline-flex;
     align-items: flex-start;
@@ -822,6 +824,11 @@ nav a {
 
     .transform_1 {
         transform: translate(0%, -9%);
+    }
+
+    .Section-1-blur-img {
+        position: absolute;
+        top: 113%;
     }
 }
 
