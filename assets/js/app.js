@@ -1,3 +1,5 @@
+// accordian
+
 let accordian = document.querySelectorAll(".full-part")
 let img = document.querySelector(".accord-img");
 let txt = document.querySelector(".accord-para");
