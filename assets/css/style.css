@@ -827,16 +827,11 @@ nav a {
         --fs-48: 35px;
     }
 
-    .d-none {
-        display: none;
-    }
-
     .transform_1 {
         transform: translate(0%, -9%);
     }
 
     .Section-1-blur-img {
-        position: absolute;
         top: 163%;
     }
 }
