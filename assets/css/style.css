@@ -206,6 +206,16 @@
     padding-left: 13%;
 }
 
+.py-16 {
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+.px-16 {
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
 .pt-16 {
     padding-top: 16%;
 }
@@ -574,7 +584,6 @@ nav a {
 .box {
     z-index: 3;
     width: 100%;
-    padding: 16px;
     position: relative;
     border-radius: 10px;
     background-color: #121111;
