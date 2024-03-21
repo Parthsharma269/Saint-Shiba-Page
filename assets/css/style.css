@@ -1046,6 +1046,22 @@ nav a {
     }
 }
 
+@media (max-width:400px) {
+    :root {
+        --fs-18: 10px;
+        --fs-22: 14px;
+        --fs-96: 57px;
+    }
+
+    .transform_1 {
+        transform: translate(0%, -9%);
+    }
+
+    .Section-1-blur-img {
+        top: 149%;
+    }
+}
+
 @media (max-width:320px) {
     :root {
         --fs-18: 14px;
