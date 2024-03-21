@@ -1003,6 +1003,12 @@ nav a {
     }
 }
 
+@media (max-width:678px) {
+    .Section-2-ellipse {
+        left: -69px;
+    }
+}
+
 @media (max-width:768px) {
     :root {
         --fs-96: 96px;
