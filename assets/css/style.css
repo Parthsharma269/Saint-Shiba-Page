@@ -826,10 +826,6 @@ nav a {
     .massa {
         margin-left: 12%;
     }
-
-    .Section-2-ellipse {
-        left: 40%;
-    }
 }
 
 @media (max-width:1029.33px) {
@@ -847,11 +843,7 @@ nav a {
 
     .Section-1-blur-img {
         position: absolute;
-        top: 113%;
-    }
-
-    .Section-2-ellipse {
-        left: 0;
+        top: 163%;
     }
 }
 
