@@ -708,14 +708,12 @@ nav a {
 .ellipse-right-shine {
     right: 0;
     top: 410%;
-    opacity: 0.5;
     position: absolute;
 }
 
 .last-ellipse {
     right: 0;
     top: 75%;
-    opacity: 0.5;
     position: absolute;
 }
 
