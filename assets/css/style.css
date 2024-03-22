@@ -1030,6 +1030,14 @@ nav a {
         transform: translate(0%, -23%);
     }
 
+    .d-md-flex {
+        display: flex;
+    }
+
+    .justify-content-md-center {
+        justify-content: center;
+    }
+
     .text-align-md-left {
         text-align: left;
     }
@@ -1067,11 +1075,11 @@ nav a {
     }
 
     .massa {
-        width: 438px;
+        width: 390px;
     }
 
     .Massa {
-        width: 438px;
+        width: 390px;
     }
 }
 
@@ -1105,11 +1113,11 @@ nav a {
     }
 
     .massa {
-        width: 325px;
+        width: 225px;
     }
 
     .Massa {
-        width: 325px;
+        width: 225px;
     }
 }
 
