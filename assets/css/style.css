@@ -998,6 +998,14 @@ nav a {
         left: 0;
     }
 
+    .massa {
+        width: 555px;
+    }
+
+    .Massa {
+        width: 555px;
+    }
+
     .d-none {
         display: none;
     }
@@ -1032,6 +1040,14 @@ nav a {
         position: absolute;
         top: 139%;
     }
+
+    .massa {
+        width: 555px;
+    }
+
+    .Massa {
+        width: 555px;
+    }
 }
 
 @media (max-width:600px) {
@@ -1051,11 +1067,19 @@ nav a {
     .Section-2-ellipse {
         left: -22%;
     }
+
+    .massa {
+        width: 438px;
+    }
+
+    .Massa {
+        width: 438px;
+    }
 }
 
 @media (max-width:500px) {
     :root {
-        --fs-18: 15px;
+        --fs-18: 16px;
         --fs-22: 18px;
         --fs-48: 24px;
         --fs-96: 58px;
@@ -1081,11 +1105,19 @@ nav a {
     .Section-2-ellipse {
         left: -50%;
     }
+
+    .massa {
+        width: 325px;
+    }
+
+    .Massa {
+        width: 325px;
+    }
 }
 
 @media (max-width:400px) {
     :root {
-        --fs-18: 10px;
+        --fs-18: 14px;
         --fs-22: 14px;
         --fs-96: 57px;
     }
@@ -1100,6 +1132,14 @@ nav a {
 
     .Section-2-ellipse {
         left: -83%;
+    }
+
+    .massa {
+        width: 216px;
+    }
+
+    .Massa {
+        width: 216px;
     }
 }
 
