@@ -7,7 +7,7 @@
     text-decoration: none;
     box-sizing: border-box;
     scroll-behavior: smooth;
-    /* border: 1px solid red; */
+    border: 1px solid red;
 }
 
 :root {
@@ -1125,7 +1125,8 @@ nav a {
     :root {
         --fs-18: 14px;
         --fs-22: 14px;
-        --fs-96: 57px;
+        --fs-36: 30px;
+        --fs-96: 45px;
     }
 
     .transform_1 {
@@ -1146,6 +1147,10 @@ nav a {
 
     .Massa {
         width: 216px;
+    }
+
+    .gap-sm-57 {
+        gap: 57px;
     }
 }
 
@@ -1188,11 +1193,11 @@ nav a {
     }
 
     .massa {
-        width: 222px;
+        width: 194px;
     }
 
     .Massa {
-        width: 222px;
+        width: 194px;
     }
 
     .Section-2-ellipse {
