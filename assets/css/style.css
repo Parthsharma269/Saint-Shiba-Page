@@ -7,7 +7,7 @@
     text-decoration: none;
     box-sizing: border-box;
     scroll-behavior: smooth;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 :root {
